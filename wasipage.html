@@ -2,90 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>WASI TECH BOT </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
       height: 100vh;
       margin: 0;
-      background-color: black;
+      background-color: #f4f4f4;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      color: #3c3c3c;
+    }
+
+    header {
+      text-align: center;
+      padding: 1em;
+      background-color: #007AFF;
+      color: #ffffff;
+      width: 100%;
     }
 
     .btn {
-      --color: #e5f5f1;
-      --color2: rgb(0, 0, 0);
+      --color: #007AFF;
+      --color2: #ffffff;
       width: 200px;
       padding: 0.8em 1.75em;
-      background-color: green;
+      background-color: #ffffff;
       border-radius: 6px;
-      border: .3px solid var(--color);
-      transition: .5s;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      z-index: 1;
-      font-weight: 300;
-      font-size: 17px;
-      font-family: 'Roboto', 'Segoe UI', sans-serif;
-      text-transform: uppercase;
-      color: var(--color);
+      border: 1px solid #d4d4d4;
+      transition: .3s;
       margin-bottom: 24px;
-    }
-
-    .btn::after, .btn::before {
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      transform: skew(90deg) translate(-50%, -50%);
-      position: absolute;
-      inset: 50%;
-      left: 25%;
-      z-index: -1;
-      transition: .5s ease-out;
-      background-color: var(--color);
-    }
-
-    .btn::before {
-      top: -50%;
-      left: -25%;
-      transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-    }
-
-    .btn:hover::before {
-      transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
-    }
-
-    .btn:hover::after {
-      transform: skew(45deg) translate(-50%, -50%);
+      font-size: 16px;
+      color: var(--color);
     }
 
     .btn:hover {
-      color: var(--color2);
+      background-color: #f2f2f2;
     }
 
-    .btn:active {
-      filter: brightness(.7);
-      transform: scale(.98);
+    footer {
+      position: bottom;
+      bottom: 10px;
+      color: #8e8e93;
+      font-size: 14px;
+    }
+    footer a {
+      color: #007AFF;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    footer a:hover {
+      color: #0056b3;
+      position: bottom;
     }
   </style>
 </head>
 <body>
-
-  <button onclick="window.open(`/qrr`)" class="btn">QR Code</button>
-  <button onclick="window.open(`/pair`)" class="btn">Pair Code</button>
-  <button onclick="window.open(`https://github.com/wasixd/WASI-MD`)" class="btn">Bot Repo</button>
-  <button onclick="window.open(`https://github.com/wasixd/WASI-MD-PLUGINS`)" class="btn">Plugins</button>
-  <button onclick="window.open(`https://wa.me/923192173398`)" class="btn">Contact Me</button>
-  <button onclick="window.open(`https://chat.whatsapp.com/L14FfkAgFCN9eXGe5Sqjqt`)" class="btn">Wa Group</button>
-  <button onclick="window.open(`https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j`)" class="btn">Wa Channel</button>
-  <button onclick="window.open(`https://instagram.com/itx_mee_wasi`)" class="btn">Instagram</button>
-  <button onclick="window.open(`https://youtube.com/@wasitech1`)" class="btn">Youtube</button>
-  
-
+  <header>
+    <h1>Welcome to Fredietech bot website</h1>
+  </header>
+  <h1>Get session id</h1>
+  <p>Get session id through QR or pairing Code</p>
+  <button onclick="window.open('/wasiqr')" class="btn">QR Code</button>
+  <button onclick="window.open('/pair')" class="btn">Pair Code</button>
+  <h2>My bot Repositories</h2>
+  <button onclick="window.open('https://github.com/Fred1e/LUCKY_MD')" class="btn">Manjiro-Sano-md</button>
+  <button onclick="window.open('t.me/freditech')" class="btn">Telegram me</button>
+  <button onclick="window.open('https://wa.me/263785028126')" class="btn">Contact Me</button>
+  <h2>Connect with me</h2>
+  <button onclick="window.open('https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f')" class="btn">Wa Channel</button>
+  <button onclick="window.open('https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9')" class="btn">Wa Group</button>
+  <button onclick="window.open('https://t.me/+u3zlb5y6OfxhOTdk')" class="btn">Telegram Group</button>
+  <button onclick="window.open('https://www.facebook.com/profile.php?id=61553209932337')" class="btn">Facebook</button>
+  <button onclick="window.open('https://www.instagram.com/fredi.simba.tz')" class="btn">Instagram</button>
+  <button onclick="window.open('https://youtube.com/@freeonlinetvT1')" class="btn">Youtube</button>
 </body>
-</html>
+  <footer>
+    <p>©fredietech Wa bots | <a href="https://github.com/Fred1e" target="_blank">GitHub</a></p>
+  </footer>
+    </html>
