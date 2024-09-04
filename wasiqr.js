@@ -59,23 +59,38 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Wasi Tech_*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『AMAZING YOU'VE CHOSEN WASI MD』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1
-║❒ *Owner:* _https://wa.me/message/THZ3I25BYZM2E1_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD_
-║❒ *WaGroup:* _https://chat.whatsapp.com/FF6YuOZTAVB6Lu65cnY5BN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j_
-║❒ *Plugins:* _https://github.com/Itxxwasi 
-╚════════════════════════╝
-_____________________________________
+*LUCKY MD QR CODE CONNECTED*
+
+> You have completed the first step of Deploying *LUCKY_MD V5*, Copy the above message and deploy your bot.Meanwhile you must follow the 4 steps. 
+
+> 1st STEP
+*TAP THE LINK BELOW AND FOLLOW THE CHANNEL* 
+𓄂 https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
+
+> 2nd STEP
+*YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
+𓄂 https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9 
+
+> 3rd STEP
+*FORK AND STAR 🌟 THE REPO FOR COURAGE*
+𓄂 https://github.com/Fred1e/lucky_md
+
+> 4th STEP
+*JOIN TELEGRAM GROUP CHAT*
+𓄂 https://t.me/+u3zlb5y6OfxhOTdk
+
+> 5th STEP 
+*VISIT FOR TUTORIALS IF YOU DON'T KNOW HOW TO DEPLOY*
+𓄂 https://www.youtube.com/@freeonlinetvT1
+
+*DEVELOPER1: TELEGRAM*
+𓄂 t.me/freditech
+
+*DEVELOPER2:FREDIE_TECH*
+𓄂 https://wa.me/255620814108
+
+> MADE ON EARTH BY FREDIE🇹🇿
+> CREATED BY FREDIE TECH💎 `
 	
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
