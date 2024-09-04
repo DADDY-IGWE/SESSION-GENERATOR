@@ -57,23 +57,43 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
-*_Pair Code Connected by WASI TECH*
-*_Made With 🤍_*
-______________________________________
-╔════◇
-║ *『 WOW YOU'VE CHOSEN WASI MD 』*
-║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
-╚════════════════════════╝
-╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1_
-║❒ *Owner:* _https://wa.me/923192173398_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD
-║❒ *WaGroup:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j
-║❒ *Plugins:* _https://github.com/wasixd/WASI-MD-PLUGINS_
-╚════════════════════════╝
-_____________________________________
+*LUCKY MD PAIRING CODE CONNECTED*
+
+> You have completed the first step of Deploying *LUCKY_MD*
+> Copy the above session Id and deploy your bot.
+> ASK DEVELOPER LUCKY FOR BOT DEPLOYMENT ✅ 
+> Meanwhile you must follow the 4 steps. 
+
+> 1st STEP
+
+> 1st STEP
+*TAP THE LINK BELOW AND FOLLOW THE CHANNEL* 
+𓄂 https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
+
+> 2nd STEP
+*YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
+𓄂 https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9
+
+> 3rd STEP
+*FORK AND STAR 🌟 THE REPO FOR COURAGE*
+𓄂 https://github.com/Fred1e/lucky_md
+
+> 4th STEP
+*JOIN TELEGRAM GROUP CHAT*
+𓄂 https://t.me/+u3zlb5y6OfxhOTdk
+
+> 5th STEP 
+*VISIT FOR TUTORIALS IF YOU DON'T KNOW HOW TO DEPLOY*
+𓄂 https://www.youtube.com/@freeonlinetvT1
+
+*DEVELOPER1: Telegram*
+𓄂 https://t.me/freditech
+
+*DEVELOPER2:FREDIE_TECH*
+𓄂 https://wa.me/255620814108
+> Dm ME ☝️ FOR WHATSAPP BOT DEPLOYMENT 🔥 🔥 
+
+> ✅✅ 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 BY FREDIE ✅✅`
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
